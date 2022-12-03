@@ -108,12 +108,15 @@ namespace SmartTran
         }
 
         private void translateToolStripMenuItem_Click(object sender, EventArgs e)
-        {            
-            if(documentChanged)
+        {
+            if (documentChanged)
             {
-
+                if (dataGridView1.Rows.Count > 0)
+                {
+                    SaveFile(currentFileName);
+                    documentChanged = false;
+                }
             }
-
 
         }
 
@@ -145,13 +148,14 @@ namespace SmartTran
 
             string translatedSentence = SmartUtil.RequestTranslation(_clientId, _clientSecrete, _language_source, _language_target, originalText);
 
-            richTextBox2.Text = translatedSentence;
-            dataGridView1.Rows[selectedRow].Cells[2].Value = translatedSentence;
-            dataGridView1.Focus();
+            if(translatedSentence.Length > 0)
+            {
+                richTextBox2.Text = translatedSentence;
+                dataGridView1.Rows[selectedRow].Cells[2].Value = translatedSentence;
+                dataGridView1.Focus();
 
-            smartGridUtils.Search.ResetPosition();
-
-            ;
+                smartGridUtils.Search.ResetPosition();
+            }
         }
 
         private void searchToolStripMenuItem_Click(object sender, EventArgs e)

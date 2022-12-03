@@ -30,22 +30,32 @@ namespace SmartTran
             request.ContentType = "application/x-www-form-urlencoded";
             request.ContentLength = byteDataParams.Length;
 
-            Stream rqstream = request.GetRequestStream();
-            rqstream.Write(byteDataParams, 0, byteDataParams.Length);
-            rqstream.Close();
+            try
+            {
+                Stream rqstream = request.GetRequestStream();
+                rqstream.Write(byteDataParams, 0, byteDataParams.Length);
+                rqstream.Close();
 
-            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-            Stream rpstream = response.GetResponseStream();
-            StreamReader reader = new StreamReader(rpstream, Encoding.UTF8);
+                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+                Stream rpstream = response.GetResponseStream();
+                StreamReader reader = new StreamReader(rpstream, Encoding.UTF8);
 
-            string text = reader.ReadToEnd();
-            response.Close();
-            rpstream.Close();
-            reader.Close();
+                string text = reader.ReadToEnd();
+                response.Close();
+                rpstream.Close();
+                reader.Close();
 
-            JObject ret = JObject.Parse(text);
+                JObject ret = JObject.Parse(text);
 
-            return ret["message"]["result"]["translatedText"].ToString();
+                return ret["message"]["result"]["translatedText"].ToString();
+
+            }
+            catch
+            {
+                MessageBox.Show("HTTP Request or Response Time Out.", "Time Out");
+                return "";
+            }
+            
         }
     }
 }
