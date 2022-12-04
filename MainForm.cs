@@ -107,6 +107,11 @@ namespace SmartTran
 
         }
 
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
         private void translateToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (documentChanged)

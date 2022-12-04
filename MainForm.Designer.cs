@@ -40,6 +40,7 @@ namespace SmartTran
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.translateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searcgToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchTextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.goToRowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,7 +51,6 @@ namespace SmartTran
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.BTN_TRAN = new System.Windows.Forms.Button();
-            this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -70,16 +70,14 @@ namespace SmartTran
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;            
-            this.dataGridView1.SelectionChanged += new System.EventHandler(this.translationGrid_SelectionChanged);
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellValueChanged);
-
+            this.dataGridView1.SelectionChanged += new System.EventHandler(this.translationGrid_SelectionChanged);
             // 
             // Column1
             // 
             resources.ApplyResources(this.Column1, "Column1");
             this.Column1.Name = "Column1";
-
             // 
             // Original
             // 
@@ -127,6 +125,12 @@ namespace SmartTran
             resources.ApplyResources(this.translateToolStripMenuItem, "translateToolStripMenuItem");
             this.translateToolStripMenuItem.Click += new System.EventHandler(this.translateToolStripMenuItem_Click);
             // 
+            // saveAsToolStripMenuItem
+            // 
+            this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
+            resources.ApplyResources(this.saveAsToolStripMenuItem, "saveAsToolStripMenuItem");
+            this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
+            // 
             // searcgToolStripMenuItem
             // 
             this.searcgToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -159,6 +163,7 @@ namespace SmartTran
             resources.ApplyResources(this.richTextBox2, "richTextBox2");
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.richTextBox2_KeyDown);
+            this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
             // 
             // label1
             // 
@@ -189,12 +194,6 @@ namespace SmartTran
             this.BTN_TRAN.Name = "BTN_TRAN";
             this.BTN_TRAN.UseVisualStyleBackColor = true;
             this.BTN_TRAN.Click += new System.EventHandler(this.BTN_TRAN_Click);
-            // 
-            // saveAsToolStripMenuItem
-            // 
-            this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            resources.ApplyResources(this.saveAsToolStripMenuItem, "saveAsToolStripMenuItem");
-            this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
             // MainForm
             // 
