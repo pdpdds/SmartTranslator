@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace SmartTran
 {
@@ -19,7 +20,7 @@ namespace SmartTran
             translationLines = new Dictionary<string, string>();
 
             //Look for comments and remove them
-            var result = Array.FindAll(list, s => !s.StartsWith("//"));
+            var result = Array.FindAll(list, s => !s.StartsWith("//") && !s.Equals(""));
 
             for (int i = 0; i < result.Length;)
             {
@@ -38,7 +39,7 @@ namespace SmartTran
                 }
                 else
                 {
-                    //MessageBox.Show("Entry already in Dictionary!",string.Format("Key already available: {0}", sSourceText));
+                    MessageBox.Show("Entry already in Dictionary!",string.Format("Key already available: {0}", sSourceText));
                 }
             }
             return translationLines;

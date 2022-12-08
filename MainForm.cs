@@ -39,7 +39,7 @@ namespace SmartTran
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenFileDialog fileDialog = new OpenFileDialog();
-            fileDialog.Filter = "Smart Translation File(*.dat,*.txt)|*.dat;*.txt";
+            fileDialog.Filter = "Smart Translation File(*.trs,*.txt)|*.trs;*.txt";
 
             if (fileDialog.ShowDialog() == DialogResult.OK)
             {
@@ -52,7 +52,7 @@ namespace SmartTran
                 Dictionary<string, string> entryList = null;
                 currentFileName = fileDialog.FileName;
 
-                if (fileDialog.FileName.Contains(".dat"))
+                if (fileDialog.FileName.Contains(".trs"))
                 {
                     entryList = SmartTranslation.ParseTranslation(fileDialog.FileName);
                 }
@@ -223,7 +223,7 @@ namespace SmartTran
                 {
 
                     Match extension = Regex.Match(currentFileName, "\\.[0-9a-z]+$");
-                    if (extension.Value.Equals(".dat"))
+                    if (extension.Value.Equals(".trs"))
                     {
                         SaveFile(currentFileName);
                     }
@@ -256,7 +256,7 @@ namespace SmartTran
             SaveFileDialog saveDialog = new SaveFileDialog();
             saveDialog.DefaultExt = "dat";
             //saveDialog.AddExtension = true;
-            saveDialog.Filter = "Smart Translation File(*.dat)|*.dat";
+            saveDialog.Filter = "Smart Translation File(*.trs)|*.trs";
 
             if (saveDialog.ShowDialog() == DialogResult.OK)
             {
