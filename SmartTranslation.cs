@@ -44,5 +44,31 @@ namespace SmartTran
             }
             return translationLines;
         }
+
+        public static Dictionary<string, string> ParseTranslationTxt(string filename)
+        {
+
+            string[] list = File.ReadAllLines(filename, Encoding.Default);
+            translationLines = new Dictionary<string, string>();
+
+            //Look for comments and remove them
+            var result = Array.FindAll(list, s => !s.StartsWith("//") && !s.Equals(""));
+
+            for (int i = 0; i < result.Length;)
+            {
+                string sSourceText = result[i];
+                i++;
+               
+                if (!translationLines.ContainsKey(sSourceText))
+                {
+                    translationLines.Add(sSourceText, sSourceText);
+                }
+                else
+                {
+                    //MessageBox.Show("Entry already in Dictionary!", string.Format("Key already available: {0}", sSourceText));
+                }
+            }
+            return translationLines;
+        }
     }
 }

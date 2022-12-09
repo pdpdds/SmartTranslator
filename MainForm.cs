@@ -58,7 +58,7 @@ namespace SmartTran
                 }
                 else if (fileDialog.FileName.Contains(".txt"))
                 {
-                    entryList = SmartTranslation.ParseTranslation(fileDialog.FileName);
+                    entryList = SmartTranslation.ParseTranslationTxt(fileDialog.FileName);
                 }
 
                 if (entryList != null)
