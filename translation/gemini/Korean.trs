@@ -214,92 +214,10 @@ Left-Click a Verb or Inventory Item to Use it on an Object
 동사 또는 오브젝트에 사용할 아이템을 좌클릭
 Right-Click an Inventory Item to Look At It
 아이템을 살펴보려면 우클릭
-Map
-Map
-Pistol
-Pistol
-Lock Picks
-Lock Picks
-????
-????
-Stick
-Stick
-Communicator
-Communicator
-ID Card
-ID Card
-Matthius
-Matthius
-Sayuri
-Sayuri
-Mafia ID card
-Mafia ID card
-Carbon Ray Stabilizer
-Carbon Ray Stabilizer
-Broken Lock Picks
-Broken Lock Picks
-Med
-Med
-Photo
-Photo
-Empty Cup
-Empty Cup
-Filled Cup
-Filled Cup
-Folder
-Folder
-Newspaper
-Newspaper
-Security Card
-Security Card
-Pipe
-Pipe
-Extension Cord
-Extension Cord
-Plug
-Plug
-Data Packet
-Data Packet
-Food Ticket
-Food Ticket
-Weight
-Weight
-Screwdriver
-Screwdriver
-Balder
-Balder
-Meal
-Meal
-Epsilon-5
-Epsilon-5
-Card
-Card
-Wrench
-Wrench
-Code
-Code
-Kane
-Kane
-Gas Mask
-Gas Mask
-Gloves
-Gloves
-Shard
-Shard
-Keycard
-Keycard
-Azriel
-Azriel
-Voice/Text
-Voice/Text
-Tom Shaster
-Tom Shaster
-%d
-%d
 &212 *ALARM*ALARM*
 &212 *ALARM*ALARM*
 &213 Warning: Reactor core unstable.
-&213 Warning: Reactor core unstable.
+&213 경고 : 원자로 코어가 불안정합니다.
 &214 Implosion is imminent.  Proceed to evacuate station.
 &214 Implosion is imminent.  Proceed to evacuate station.
 &215 EMERGENCY -- All access points opening.
@@ -1404,12 +1322,6 @@ There is a hidden note underneath my uniform. There appears to be something scri
 &534 What street is this...?
 &93 Brookview Avenue.
 &93 Brookview Avenue.
-&94 If you're gonna be walking the streets, you'd better watch yourself.
-&94 If you're gonna be walking the streets, you'd better watch yourself.
-&95 The Boryokudan doesn't take too kindly to cops, especially ones from out of the system, if you know what I mean.
-&95 거리를 걸을 생각이라면, 조심하는 게 좋을 거에요. 보료쿠단은 경찰들에게 친절하지 않거든요. 특히 이 행성계 밖에서 온 사람에게는요, 내 말이 무슨 뜻인지 아신다며.
-&535 Understood.
-&535 알겠어요.
 &96 Hey, again. Back in town?
 &96 Hey, again. Back in town?
 &536 Not for long.
@@ -5184,14 +5096,6 @@ No. (lie)
 No. (lie)
 Apartment
 Apartment
-&7 I'm a police officer.
-&7 난 경찰이에요.
-I'm his brother. (lie)
-난 그의 형제예요.(거짓말)
-I'm with the Boryokudan. (lie)
-난 보료쿠단과 일하고 있어요.(거짓말)
-I'm his co-worker. (lie)
-난 그의 직장 동료예요(거짓말)
 &8 PH Engineer.
 &8 PH Engineer.
 &9 ME Technician.
@@ -5724,18 +5628,6 @@ I'm an assassin. (lie)
 (INVSHR)
 New Button
 New Button
-Resume
-Resume
-Save
-세이브
-Options
-옵션
-Quit
-나가기
-Load
-로드
-Restart
-재시작
 OK
 OK
 RED
@@ -5818,8 +5710,6 @@ POWER
 POWER
 +
 +
-Delete
-Delete
 Restore
 Restore
 New
@@ -5830,12 +5720,6 @@ DEFAULTS
 DEFAULTS
 Controls
 Controls
-New Game
-새 게임
-Load Game
-게임 로드
-Developer Commentary
-개발자 코멘트
 Buy Full Game
 Buy Full Game
 Are you sure you want to restart?
@@ -5856,8 +5740,6 @@ Number Not Found
 Number Not Found
 Contacts
 Contacts
-Left-Click: Walk Right-Click: Interact
-Left-Click: Walk Right-Click: Interact
 AZRIEL
 AZRIEL
 DELTA-SIX
@@ -5866,8 +5748,6 @@ DELTA-SIX
 /8
 Enter Storage Code
 Enter Storage Code
-Right-Click an Inventory Item to Look At It
-Right-Click an Inventory Item to Look At It
 1/22
 1/22
 0800 Hours (Arrival)
@@ -5876,14 +5756,10 @@ LICENSE #: 15230-A
 LICENSE #: 15230-A
 A: Move Box Left D: Move Box Right W: Get on Box     S: Cancel
 A: Move Box Left D: Move Box Right W: Get on Box     S: Cancel
-Left-Click a Verb or Inventory Item to Use it on an Object
-Left-Click a Verb or Inventory Item to Use it on an Object
 -  LVL 1 ENTRY SHAFT
 -  LVL 1 ENTRY SHAFT
 MAINTENANCE - SHAFT
 MAINTENANCE - SHAFT
-Gemini System     Colony of Barracus  1400 Hours
-제미니계, 바라쿠스 행성, 1400시. 
 SPACE
 SPACE
 SHIFT
@@ -5922,54 +5798,6 @@ Continue?
 Continue?
 제미니 루
 제미니 루
-&256 Initiating Memory Wipe... in T-Minus...
-&256 Initiating Memory Wipe... in T-Minus...
-&11 Okay, here we go.
-&11 Okay, here we go.
-&6 Um... what are we supposed to do if he's conscious?
-&6 Um... what are we supposed to do if he's conscious?
-&12 It doesn't matter. It'll only be a second.
-&12 It doesn't matter. It'll only be a second.
-&260 Initiating Memory Wipe...
-&260 Initiating Memory Wipe...
-&166 ARGH!
-&166 ARGH!
-&13 Vitals are stable.
-&13 Vitals are stable.
-&7 Is he okay?
-&7 Is he okay?
-&49 Assuming you both did your jobs correctly, for once.
-&49 Assuming you both did your jobs correctly, for once.
-&14 He's fine...
-&14 He's fine...
-&50 Delta-Six, you're in our hands now.
-&50 델타 식스, 자네는 이제 우리 손 안에 있어.
-&15 Subject is stable...
-&15 대상의 상태는 안정적입니다….
-&16 Proceed to memory wipe in T-Minus 60 seconds...
-&16 60초 후에 기억 청소가 진행될 겁니다….
-&8 I still don't see why we can't just let him keep this memory.
-&8 전 아직도 왜 그냥 그의 이 기억을 그대로 두면 안 되는지 모르겠어요.
-&17 There is no reason to let him keep the memories of his escape.
-&17 도망의 기억을 갖게 할 이유는 없습니다.
-&18 Any skills he learned are kept in his cognition areas, not memory banks.
-&18 그가 배운 기술은 기억 저장소가 아니라, 인지 영역에 간직됩니다.
-&51 Assuming you two don't wipe those areas as well.
-&51 Assuming you two don't wipe those areas as well.
-&52 Then I'd have to retrain him all over again...
-&52 Then I'd have to retrain him all over again...
-&19 As I was saying...
-&19 As I was saying...
-&20 If they try to escape again, they'll have some pre-existing knowledge to help them get out.
-&20 If they try to escape again, they'll have some pre-existing knowledge to help them get out.
-&53 If they try to escape again, don't kill them next time.
-&53 그들이 또 도망치려고 한다면, 다음부터는 죽이지 말게. 
-&54 She wasn't supposed to die.
-&54 그녀는 죽으면 안 됐어.
-&9 Something's off... his breathing is starting to become irregular...
-&9 Something's off... his breathing is starting to become irregular...
-&140 Ugh...
-&140 Ugh...
 &167 Can't get to that with these straps...!
 &167 Can't get to that with these straps...!
 &10 Uh, I think you might want to tighten his straps. He's trying to reach out...
@@ -5986,8 +5814,6 @@ Continue?
 &23 I know, alright?
 &168 It's useless. I can't get out.
 &168 It's useless. I can't get out.
-&167 Can't get to that with these straps...!
-&167 Can't get to that with these straps...!
 Perpetual rain.
 Perpetual rain.
 &118 Must've been a pain during the war.
@@ -6002,8 +5828,6 @@ Perpetual rain.
 &119 What? Are you just gonna go up to the front door and ask them to hand over the location?
 &777 I'm going to try.
 &777 I'm going to try.
-&78 Azriel...
-&78 Azriel...
 &778 I'll find out where Center 7 is, and I'll get out. I'll make this quick.
 &778 I'll find out where Center 7 is, and I'll get out. I'll make this quick.
 &120 ...We'll see.
@@ -6036,8 +5860,6 @@ Look up names in your communicator by right-clicking on it in your inventory, or
 &786 Maybe I should try to find someone else's card.
 &787 Not now...
 &787 Not now...
-&23 ID card accepted.
-&23 ID card accepted.
 &24 Please log in with your citizenship ID card to access this terminal.
 &24 Please log in with your citizenship ID card to access this terminal.
 &25 If you are visiting from off-world, please use your temporary visitor's card you acquired in the boarding station.
@@ -6066,8 +5888,6 @@ Look up names in your communicator by right-clicking on it in your inventory, or
 &798 It needs a key.
 &799 Doesn't budge.
 &799 Doesn't budge.
-&797 There's no need to go back there.
-&797 There's no need to go back there.
 &800 It's not coming off that way.
 &800 It's not coming off that way.
 &801 I could shoot the lock off, but I have no reason to go back there.
@@ -6082,92 +5902,30 @@ Look up names in your communicator by right-clicking on it in your inventory, or
 &69 Just shoot it open and let's get on with it!
 &70 Azriel-they're right behind us. Just open it and let's go.
 &70 Azriel-they're right behind us. Just open it and let's go.
-&797 There's no need to go back there.
-&797 There's no need to go back there.
 &805 Shooting the gate won't accomplish anything.
 &805 Shooting the gate won't accomplish anything.
 &806 I can't pick the GATE.
 &806 I can't pick the GATE.
-&803 The lock is rusted shut. There's no way I can pick it.
-&803 The lock is rusted shut. There's no way I can pick it.
-&804 Can you try to get that gate open?
-&804 Can you try to get that gate open?
-&69 Just shoot it open and let's get on with it!
-&69 Just shoot it open and let's get on with it!
-&70 Azriel-they're right behind us. Just open it and let's go.
-&70 Azriel-they're right behind us. Just open it and let's go.
 &807 Don't need to go back there anymore.
 &807 Don't need to go back there anymore.
-&809 Kane...
-&809 케인….
-&122 Yes, Azriel?
-&122 왜, 아즈리엘?
-&810 ...Something's wrong... he should've been here by now.
-&810 …뭔가가 잘못됐어…. 그는 지금쯤 여기 있었어야 하는데.
-&123 People change in five years...
-&123 사람은 5년 동안 변하지….
-&811 He's not with the Boryokudan anymore, I told you.
-&811 그는 더 이상 보료쿠단이랑 일 안 해. 내가 말했잖아.
-&124 We're already an hour late. I can't stay in orbit unnoticed forever.
-&124 We're already an hour late. I can't stay in orbit unnoticed forever.
-&812 What do you want me to do?
-&812 What do you want me to do?
-&125 Find him. Get a new extraction point or we're getting out of here.
-&125 Find him. Get a new extraction point or we're getting out of here.
-&813 Alright... I'll start looking through the city. I'll probably have to ask one of the locals. He moves all the time.
-&813 Alright... I'll start looking through the city. I'll probably have to ask one of the locals. He moves all the time.
-&126 Alright. One more hour. I'll be waiting.
-&126 Alright. One more hour. I'll be waiting.
-&814 Azriel out.
-&814 Azriel out.
-&815 Matthius Howard... Where are you...
-&815 마티우스 하워드…. 어디 있는 거냐….
 &816 There goes the static... for now, at least.
 &816 There goes the static... for now, at least.
 &817 The screen is fine.
 &817 The screen is fine.
-&787 Not now...
-&787 Not now...
 &818 I'm not going to shoot it when I need to use it.
 &818 I'm not going to shoot it when I need to use it.
-&784 The rain must be interfering with the terminal. The screen is all staticky.
-&784 The rain must be interfering with the terminal. The screen is all staticky.
-&785 Maybe a little kick start would do it some good.
-&785 Maybe a little kick start would do it some good.
-&23 ID card accepted.
-&23 ID card accepted.
 &819 Matthius Howard... where are you, old pal...
 &819 Matthius Howard... where are you, old pal...
-&23 ID card accepted.
-&23 ID card accepted.
 &820 That doesn't make any sense here.
 &820 That doesn't make any sense here.
-&405 There's nothing for her to do there.
-&405 There's nothing for her to do there.
 &672 I can't use that item here.
 &672 I can't use that item here.
-&23 ID card accepted.
-&23 ID card accepted.
 &26 Data Packet Recieved.
 &26 Data Packet Recieved.
 &821 It's a security card. It won't work here.
 &821 It's a security card. It won't work here.
-&405 There's nothing for her to do there.
-&405 There's nothing for her to do there.
-&820 That doesn't make any sense here.
-&820 That doesn't make any sense here.
-&672 I can't use that item here.
-&672 I can't use that item here.
-Left-Click: Walk Right-Click: Interact
-Left-Click: Walk Right-Click: Interact
-Left-Click a Verb or Inventory Item to Use it on an Object
-Left-Click a Verb or Inventory Item to Use it on an Object
-Right-Click an Inventory Item to Look At It
-Right-Click an Inventory Item to Look At It
 &71 What happened back there?
 &71 What happened back there?
-&162 What?
-&162 What?
 &72 Your aim was freaking horrible.
 &72 Your aim was freaking horrible.
 &73 You been slacking off since you joined the police?
@@ -6198,8 +5956,6 @@ Right-Click an Inventory Item to Look At It
 &27 Database 7-25 - Search protocol initiated.
 &832 These photos mean something to someone-Not to me.
 &832 These photos mean something to someone-Not to me.
-&12 No.
-&12 No.
 &833 People have been missing in Gemini for months now.
 &833 People have been missing in Gemini for months now.
 &834 The Boryokudan aren't killing them, but nobody knows where they're going.

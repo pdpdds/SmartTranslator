@@ -27,10 +27,14 @@ namespace SmartTran
         private int numEntries = 0;
         private bool documentChanged = false;
 
+        public bool agsVoiceMacroFiltering = true;
+
         string _clientId;
         string _clientSecrete;
         string _language_source;
         string _language_target;
+
+
 
         public MainForm()
         {
@@ -150,12 +154,31 @@ namespace SmartTran
             selectedRow = dataGridView1.SelectedRows[0].Index;
 
             string originalText = (string)dataGridView1.Rows[selectedRow].Cells[1].Value;
-            richTextBox1.Text = originalText;
+            string first = null;
+
+            if (agsVoiceMacroFiltering)
+            {
+                if (originalText[0] == '&')
+                {
+                    int index = originalText.IndexOf(' ');
+                    first = originalText.Substring(0, index);
+                    string second = originalText.Substring(index + 1);
+                    originalText = second;
+                }
+            }
 
             string translatedSentence = SmartUtil.RequestTranslation(_clientId, _clientSecrete, _language_source, _language_target, originalText);
 
             if(translatedSentence.Length > 0)
             {
+                if (agsVoiceMacroFiltering) {
+                    if(first != null)
+                    {
+                        translatedSentence = first + ' ' + translatedSentence;
+                    }
+                   
+                }
+
                 richTextBox2.Text = translatedSentence;
                 dataGridView1.Rows[selectedRow].Cells[2].Value = translatedSentence;
                 dataGridView1.Focus();

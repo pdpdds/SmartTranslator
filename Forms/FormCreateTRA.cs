@@ -43,6 +43,14 @@ namespace SmartTran
 
                 CreateTraFile(gamInfo, "Korean.tra", SmartTranslation.ParseTranslation(parent.currentFileName));
             }
+            else if (this.comboBox1.SelectedIndex == 1)
+            {
+                gamInfo.GameTitle = "Gemini Rue";
+                gamInfo.GameUID = "84668800";
+                gamInfo.Version = "3.2.0";
+
+                CreateTraFile(gamInfo, "Korean.tra", SmartTranslation.ParseTranslation(parent.currentFileName));
+            }
             else if (this.comboBox1.SelectedIndex == 3)
             {
                 gamInfo.GameTitle = "The Cabin";
