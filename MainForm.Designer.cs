@@ -41,6 +41,7 @@ namespace SmartTran
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.translateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.createTRAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searcgToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchTextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.goToRowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -51,7 +52,6 @@ namespace SmartTran
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.BTN_TRAN = new System.Windows.Forms.Button();
-            this.createTRAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -98,7 +98,6 @@ namespace SmartTran
             // 
             // menuStrip1
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
@@ -134,6 +133,12 @@ namespace SmartTran
             resources.ApplyResources(this.saveAsToolStripMenuItem, "saveAsToolStripMenuItem");
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
+            // createTRAToolStripMenuItem
+            // 
+            this.createTRAToolStripMenuItem.Name = "createTRAToolStripMenuItem";
+            resources.ApplyResources(this.createTRAToolStripMenuItem, "createTRAToolStripMenuItem");
+            this.createTRAToolStripMenuItem.Click += new System.EventHandler(this.createTRAToolStripMenuItem_Click);
+            // 
             // searcgToolStripMenuItem
             // 
             this.searcgToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -160,6 +165,7 @@ namespace SmartTran
             resources.ApplyResources(this.richTextBox1, "richTextBox1");
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // richTextBox2
             // 
@@ -197,12 +203,6 @@ namespace SmartTran
             this.BTN_TRAN.Name = "BTN_TRAN";
             this.BTN_TRAN.UseVisualStyleBackColor = true;
             this.BTN_TRAN.Click += new System.EventHandler(this.BTN_TRAN_Click);
-            // 
-            // createTRAToolStripMenuItem
-            // 
-            this.createTRAToolStripMenuItem.Name = "createTRAToolStripMenuItem";
-            resources.ApplyResources(this.createTRAToolStripMenuItem, "createTRAToolStripMenuItem");
-            this.createTRAToolStripMenuItem.Click += new System.EventHandler(this.createTRAToolStripMenuItem_Click);
             // 
             // MainForm
             // 
