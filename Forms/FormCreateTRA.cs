@@ -43,6 +43,22 @@ namespace SmartTran
 
                 CreateTraFile(gamInfo, "Korean.tra", SmartTranslation.ParseTranslation(parent.currentFileName));
             }
+            else if (this.comboBox1.SelectedIndex == 3)
+            {
+                gamInfo.GameTitle = "The Cabin";
+                gamInfo.GameUID = "9AF09E06";
+                gamInfo.Version = "3.5.0.24";
+
+                CreateTraFile(gamInfo, "Korean.tra", SmartTranslation.ParseTranslation(parent.currentFileName));
+            }
+            else if (this.comboBox1.SelectedIndex == 4)
+            {
+                gamInfo.GameTitle = "Space Quest 2 VGA";
+                gamInfo.GameUID = "F15983E";
+                gamInfo.Version = "3.2.0";
+
+                CreateTraFile(gamInfo, "Korean.tra", SmartTranslation.ParseTranslation(parent.currentFileName));
+            }
 
         }
     }

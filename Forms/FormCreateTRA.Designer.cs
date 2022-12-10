@@ -39,7 +39,9 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Space Quest - Vohaul Strikes Back",
             "Gemini Rue",
-            "Zak 2"});
+            "Zak 2",
+            "The Cabin",
+            "Space Quest 2 - Remake"});
             this.comboBox1.Location = new System.Drawing.Point(46, 30);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(686, 32);
