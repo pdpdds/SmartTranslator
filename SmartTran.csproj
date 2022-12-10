@@ -49,11 +49,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\FormCreateTRA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCreateTRA.Designer.cs">
+      <DependentUpon>FormCreateTRA.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\GoToRowForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\GoToRowForm.Designer.cs">
-    <DependentUpon>GoToRowForm.cs</DependentUpon>
+      <DependentUpon>GoToRowForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SearchTextForm.cs">
       <SubType>Form</SubType>
@@ -73,8 +79,11 @@
     <Compile Include="SmartGridUtil.cs" />
     <Compile Include="SmartTranslation.cs" />
     <Compile Include="SmartUtil.cs" />
+    <EmbeddedResource Include="Forms\FormCreateTRA.resx">
+      <DependentUpon>FormCreateTRA.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\SearchTextForm.resx">
-    <DependentUpon>SearchTextForm.cs</DependentUpon>
+      <DependentUpon>SearchTextForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\GoToRowForm.resx">
       <DependentUpon>GoToRowForm.cs</DependentUpon>

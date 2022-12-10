@@ -13,6 +13,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
+using static SmartTran.SmartUtil;
 
 namespace SmartTran
 {
@@ -22,7 +23,7 @@ namespace SmartTran
         public SmartGridUtil smartGridUtils;
 
         private int selectedRow = 0;
-        private string currentFileName = "";
+        public string currentFileName = "";
         private int numEntries = 0;
         private bool documentChanged = false;
 
@@ -237,7 +238,7 @@ namespace SmartTran
 
         }
 
-        private void SaveFile(string filename)
+        public void SaveFile(string filename)
         {
             FileStream fs = new FileStream(filename, FileMode.Create);
             StreamWriter fw = new StreamWriter(fs, Encoding.Default);
@@ -251,6 +252,7 @@ namespace SmartTran
             fs.Close();
         }
 
+      
         private void SaveAs()
         {
             SaveFileDialog saveDialog = new SaveFileDialog();
@@ -275,6 +277,13 @@ namespace SmartTran
             {
                 SaveAs();
             }
+        }
+
+        private void createTRAToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var traForm = new FormCreateTRA();
+            
+            traForm.Show(this);       
         }
     }
 

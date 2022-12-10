@@ -51,6 +51,7 @@ namespace SmartTran
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.BTN_TRAN = new System.Windows.Forms.Button();
+            this.createTRAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -97,6 +98,7 @@ namespace SmartTran
             // 
             // menuStrip1
             // 
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
@@ -109,7 +111,8 @@ namespace SmartTran
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openToolStripMenuItem,
             this.translateToolStripMenuItem,
-            this.saveAsToolStripMenuItem});
+            this.saveAsToolStripMenuItem,
+            this.createTRAToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
             // 
@@ -162,8 +165,8 @@ namespace SmartTran
             // 
             resources.ApplyResources(this.richTextBox2, "richTextBox2");
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.richTextBox2_KeyDown);
             this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
+            this.richTextBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.richTextBox2_KeyDown);
             // 
             // label1
             // 
@@ -194,6 +197,12 @@ namespace SmartTran
             this.BTN_TRAN.Name = "BTN_TRAN";
             this.BTN_TRAN.UseVisualStyleBackColor = true;
             this.BTN_TRAN.Click += new System.EventHandler(this.BTN_TRAN_Click);
+            // 
+            // createTRAToolStripMenuItem
+            // 
+            this.createTRAToolStripMenuItem.Name = "createTRAToolStripMenuItem";
+            resources.ApplyResources(this.createTRAToolStripMenuItem, "createTRAToolStripMenuItem");
+            this.createTRAToolStripMenuItem.Click += new System.EventHandler(this.createTRAToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -242,6 +251,7 @@ namespace SmartTran
         private System.Windows.Forms.ToolStripMenuItem searchTextToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem goToRowToolStripMenuItem;
         private ToolStripMenuItem saveAsToolStripMenuItem;
+        private ToolStripMenuItem createTRAToolStripMenuItem;
     }
 }
 
