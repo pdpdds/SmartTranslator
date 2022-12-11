@@ -41,18 +41,24 @@
             "Gemini Rue",
             "Zak 2",
             "The Cabin",
-            "Space Quest 2 - Remake"});
-            this.comboBox1.Location = new System.Drawing.Point(46, 30);
+            "Space Quest 2 - Remake",
+            "Falling Dark 2",
+            "Broken Windows 1",
+            "Broken Windows 2",
+            "Primodia"});
+            this.comboBox1.Location = new System.Drawing.Point(25, 15);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(686, 32);
+            this.comboBox1.Size = new System.Drawing.Size(371, 20);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(507, 98);
+            this.button1.Location = new System.Drawing.Point(273, 49);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 44);
+            this.button1.Size = new System.Drawing.Size(64, 22);
             this.button1.TabIndex = 1;
             this.button1.Text = "Ok";
             this.button1.UseVisualStyleBackColor = true;
@@ -60,9 +66,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(632, 98);
+            this.button2.Location = new System.Drawing.Point(340, 49);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 44);
+            this.button2.Size = new System.Drawing.Size(54, 22);
             this.button2.TabIndex = 2;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
@@ -70,12 +77,13 @@
             // 
             // FormCreateTRA
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(749, 195);
+            this.ClientSize = new System.Drawing.Size(403, 98);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormCreateTRA";
             this.Text = "Create TRA Files";
             this.ResumeLayout(false);

@@ -67,6 +67,38 @@ namespace SmartTran
 
                 CreateTraFile(gamInfo, "Korean.tra", SmartTranslation.ParseTranslation(parent.currentFileName));
             }
+            else if (this.comboBox1.SelectedIndex == 5)
+            {
+                gamInfo.GameTitle = "Falling Dark 2";
+                gamInfo.GameUID = "655CA404";
+                gamInfo.Version = "3.5.0.24";
+
+                CreateTraFile(gamInfo, "Korean.tra", SmartTranslation.ParseTranslation(parent.currentFileName));
+            }
+            else if (this.comboBox1.SelectedIndex == 6)
+            {
+                gamInfo.GameTitle = "Broken Windows - Ch. 1";
+                gamInfo.GameUID = "ED846D39";
+                gamInfo.Version = "3.4.1.15";
+
+                CreateTraFile(gamInfo, "Korean.tra", SmartTranslation.ParseTranslation(parent.currentFileName));
+            }
+            else if (this.comboBox1.SelectedIndex == 7)
+            {
+                gamInfo.GameTitle = "Broken Windows - Chapter 2";
+                gamInfo.GameUID = "ED846D39";
+                gamInfo.Version = "3.5.0.24";
+
+                CreateTraFile(gamInfo, "Korean.tra", SmartTranslation.ParseTranslation(parent.currentFileName));
+            }
+            else if (this.comboBox1.SelectedIndex == 8)
+            {
+                gamInfo.GameTitle = "Primordia";
+                gamInfo.GameUID = "C7ACB10F";
+                gamInfo.Version = "3.2.0";
+
+                CreateTraFile(gamInfo, "Korean.tra", SmartTranslation.ParseTranslation(parent.currentFileName));
+            }
 
         }
     }

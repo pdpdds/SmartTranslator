@@ -1,6 +1,6 @@
 crispin
 크리스핀
-CHAIR
+Chair
 의자
 TELESCOPE
 망원경
@@ -79,7 +79,7 @@ Yes?
 &4 YES.
 &4 YES.
 YES.
-YES.
+네.
 &26 YES.
 &26 YES.
 &1980 You're an incomplete backup?
@@ -106,12 +106,6 @@ YES.
 &5 Third.
 &33 Third.
 &33 Third.
-&2 MAD.
-&2 MAD.
-MAD.
-MAD.
-&21 MAD.
-&21 MAD.
 &43 Gamma . . .
 &43 Gamma . . .
 &35 Gamma. . .
@@ -122,8 +116,6 @@ FIND.
 &36 FIND.
 &2 GAMMA.
 &2 GAMMA.
-GAMMA.
-GAMMA.
 &39 GAMMA.
 &39 GAMMA.
 &1981 Where is Gamma?
@@ -136,8 +128,6 @@ GAMMA.
 &42 BELOW.
 &660 Can we have your power core?
 &660 Can we have your power core?
-&8 NO.
-&8 NO.
 &1 . . . perhaps . . .
 &1 . . . perhaps . . .
 &677 Good-bye.
@@ -162,10 +152,6 @@ MADNESSS.
 &47 . . . resurrection . . .
 &60 . . . vengeance.
 &60 . . . vengeance.
-&2 GAMMA.
-&2 GAMMA.
-GAMMA.
-GAMMA.
 &48 Find him.
 &48 Find him.
 &5 FIND HIM.
@@ -616,14 +602,6 @@ primer_firsttalkondialog2
 &886 No.
 &887 Why "Primer"?
 &887 Why "Primer"?
-"2 3 5 7 11 13 17 19
-23 29 31 37 41 43
-47 53 59 61 67 71
-73 79 83 89 97 101
-103 107 109 113 127
-131 137 139 149 151
-157 163 167 173 179
-181 191 193 197 199"
 "2 3 5 7 11 13 17 19
 23 29 31 37 41 43
 47 53 59 61 67 71
@@ -1144,8 +1122,6 @@ hint_321_activate
 hint_321_activate
 FL
 FL
-%d
-%d
 BO
 BO
 firstclickoncrispin
@@ -1314,8 +1290,6 @@ hint_231_activate
 hint_231_activate
 pluggedinsensor
 pluggedinsensor
-137
-137
 137
 137
 6734
@@ -1492,8 +1466,6 @@ bottles
 bottles
 hole
 hole
-crispin
-crispin
 c
 c
 data
@@ -3366,8 +3338,6 @@ hint_115_activate
 hint_115_activate
 %d. %s
 %d. %s
-%d
-%d
 hint_258_activate
 hint_258_activate
 walkshakey_activate
@@ -3638,8 +3608,6 @@ Environmental animations.
 Environmental animations.
 crashed bus
 crashed bus
-note
-note
 &904 Ahhh!
 &904 아아악!
 Repair tasks.
@@ -3738,12 +3706,8 @@ Fiends!
 Fiends!
 The courthouse.
 The courthouse.
-exit
-exit
 scanner
 scanner
-&%d
-&%d
 MEEHHH . . . MOHHH . . REEEE . . .
 메에에 . . . 모오 . . 리이이 . . .
 PAAAAAARTSSS.
@@ -3906,8 +3870,6 @@ Third.
 &117 "미친 소리"는 내겐 모국어 같은 거죠.
 &48 Below . . .
 &48 아래에...
-&40 . . . hiding.
-&40 ...숨어 있음.
 &49 Would not . . .
 &49 우리와...
 &41 . . . join.
@@ -4096,8 +4058,6 @@ I have brought the Gospel.
 &33 "하여 나는 그대가 무지와 불신앙의 길로 들어선 것은 아닌지 확인해보아야만 하겠네."
 &18 Answer me these questions three, that I may know that thou art faithful still.
 &18 질문 세 개에 답하게나. 이를 통해 그대의 신앙심이 여전히 깊은지 알 수 있을걸세.
-&35 Why are we here?
-&35 우리는 왜 존재하는가?
 &675 I found the dome you described, but it is closed up.
 &675 말씀해주신 돔에 가봤습니다만, 닫혀 있더군요.
 &676 Do you know how to get in?
@@ -4913,7 +4873,7 @@ Is this your motor?
 &18 <You hear only one.>
 &18 <그대가 듣는 건 오직 하나뿐이지.>
 &19 <No. I must recover my motor so that I can dance with the Harmony.>
-&19 <안됀다�? 나는 하모니와 춤추기 위해서 내 모터를 돌려 받아야 해.>
+&19 <안됀다? 나는 하모니와 춤추기 위해서 내 모터를 돌려 받아야 해.>
 &840 Looks like we're going to need to go talk to Leopold about a motor.
 &840 레오폴드한테 가서 모터에 관해 이야기를 나누어 보아야 할 것 같은데.
 &841 I *could* give it to him this way, but maybe I should try fixing it first.
@@ -5873,7 +5833,7 @@ I don't have any more questions.
 &1964 Yes.
 &1964 그렇다.
 &1965 You are hopelessly corrupted, MetroMind.
-&1965 넌 구제할 수 없을 정도로 손상됬�? 메트로마인드.
+&1965 넌 구제할 수 없을 정도로 손상됬? 메트로마인드.
 &1966 Like any virus, you want to keep running, and you think that by spreading, you are doing good.
 &1966 여느 바이러스 처럼, 넌 계속 가동하고 싶어하고, 그리고 넌 네가 퍼질때마다 좋은 일을 하고있다고 생각하지.
 &1967 But you are not.
@@ -6702,8 +6662,6 @@ Primer is willing to judge your case.
 프라이머가 당신들의 소송 판결을 내려줄 의향이 있다고 합니다.
 Clarity Arbiterbuilt has judged your case.
 클래리티 아비터빌트가 당신들의 소송 판결을 내려주었습니다.
-Good-bye.
-Good-bye.
 &1 Ahoy, my dear friend! Oswald Factorbuilt, at your service.
 &1 여어, 친애하는 이여! 나는 오스왈드 팩터빌트라고 한다네.
 &1 He's no more your "dear friend" than Rex is your creation, you b'sodding gear-oiler.
@@ -8852,8 +8810,6 @@ No. You must be destroyed.
 &317 Yes, I think you do.
 &1760 Says the one who lived in the Underworks.
 &1760 Says the one who lived in the Underworks.
-&318 Yes. Says she.
-&318 Yes. Says she.
 &401 I must admit, Horatio, that I am surprised that it was the Urbanian who destroyed Scraper in the end.
 &401 스크래퍼를 처치한 게 얼바니 로봇이었단 사실에 내가 놀랐단 걸 인정할 수밖에 없을 것 같군, 호라시오.
 &402 I must admit, Horatio, that I am surprised that it was you who destroyed Scraper in the end.
@@ -9722,8 +9678,6 @@ INFERENCE(4): Metropol Must Survive
 &161 Truth is its own consolation.
 &839 Boss, what about the memory files?
 &839 Boss, what about the memory files?
-&153 \"Mercy.\"
-&153 \"Mercy.\"
 &83 And just like that, the challenge is done.
 &83 And just like that, the challenge is done.
 &84 I've finished your quest and ruined your fun.
@@ -10358,8 +10312,6 @@ Shutting down internal systems . . . .
 &1115 (들킬 게 분명해.)
 "Are you
 sure ?"
-"Are you
-sure ?"
 Talking to yourself is a sign of madness!
 혼잣말을 하는 건 광기의 징후에요!
 &289 Are you really trying to build us an energy sensor from a bunch of garbage?
@@ -10758,8 +10710,6 @@ Garbage in, greatness out.
 &18 그대가 세 가지 질문에 바르게 답한다면, 내 여전히 그대가 신실함을 인정하겠네.
 &2072 I am ready to be tested again.
 &2072 다시 시험을 받을 준비가 되었습니다.
-&18 Answer me these questions three, that I may know thou art faithful still.
-&18 그대가 세 가지 질문에 바르게 답한다면, 내 여전히 그대가 신실함을 인정하겠네.
 &84 Thou hast done well, wanderer, and have returned to the path of righteousness.
 &84 잘 하였다, 방랑자여. 다시 올바른 길로 돌아왔구나.
 &85 Yet still thou must answer me this: what is thy name?
@@ -11378,10 +11328,6 @@ Shakespeare.
 &1208 Why? I already took the oil away from him.
 &1209 The bartender told me that Oswald shouldn't be drinking this.
 &1209 The bartender told me that Oswald shouldn't be drinking this.
-&924 In any case, Rex is his own robot.
-&924 In any case, Rex is his own robot.
-&56 Indeed.
-&56 Indeed.
 &79 The last thing I want is that buffoon's hat.
 &79 The last thing I want is that buffoon's hat.
 &1210 Oswald, I found your chain.
@@ -11879,7 +11825,7 @@ Shakespeare.
 &618 STOP!
 &618 그만해요!
 &619 You can't let her know I've been seeing another lamp!
-&619 내가 다른 램프를 만나고 있었다는걸 그녀가 알게해서는 안됀다구�?
+&619 내가 다른 램프를 만나고 있었다는걸 그녀가 알게해서는 안됀다구?
 &812 I'm not going to threaten her.
 &812 그를 위협할 생각은 없다.
 &1301 Some short strands of copper wiring.
@@ -12846,8 +12792,6 @@ Recharge timer.
 &11 좋아요, 보스. 달까지 날아갔다가 오는 길에 월석 하나 주워다 줄게요.
 &12 Oh, wait, I can't, since I don't have hands.
 &12 어, 잠깐만, 안 되겠는데요. 왜냐면 난 손이 없으니까.
-&10 Strange clouds, huh, boss?
-&10 기묘한 구름이네요, 안 그래요, 보스?
 &13 Uhh . . . boss?
 &13 어어... 보스?
 &5 Crispin, get behind me.
@@ -13164,8 +13108,6 @@ Recharge timer.
 &97 그럼요, 보스, 소설 따위보단 현실 쪽이 훨씬 흥미진진하니까요!
 &155 Bed-time reading.
 &155 자기 전에 읽기 좋은 책들이다.
-&159 Sorry. I couldn't find a working fuse to solve the problem.
-&159 1=D4368
 &163 It's the Gospel of Man.
 &163 인간의 복음서이다.
 &166 I'm trying to fix the UNNIIC, not destroy it.
@@ -13734,8 +13676,6 @@ ALL ABOARD.
 &263 봐요, 보스 -- 바로 *저기* 메트로폴로 가는 지하철이 있잖아요.
 &620 So there is.
 &620 정말 그렇군.
-&264 So? What's the plan, boss?
-&264 이제는요? 어떻게 할 계획이에요, 보스?
 &621 There is no plan, Crispin.
 &621 계획같은 건 없어, 크리스핀.
 &622 No plan, and no choices.
@@ -13836,8 +13776,6 @@ Fine, fine, put me down[ for another megacycle.
 &1577 굳게 잠겨 있다.
 &1578 I'm not going to force my way in.
 &1578 강제로 열고 들어갈 생각은 없다.
-&708 No. It's time to go to the tower and finish this.
-&708 No. It's time to go to the tower and finish this.
 &1579 It's too heavy for me to lift.
 &1579 너무 무거워서 들 수 없다.
 &1580 There's nothing more for us down there.
@@ -15769,7 +15707,7 @@ Lost.
 &2275 The need to forget.
 &2275 The need to forget.
 &2340 This ship has rusted here too long.
-&2340 This ship has rusted here too long.
+&2340 이 배는 여기서 너무 오랫동안 녹슬었다.
 &448 that comes when one's acts have meaning.
 &448 that comes when one's acts have meaning.
 &449 Meaning far beyond what our shells could ever hold

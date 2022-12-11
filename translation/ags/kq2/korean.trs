@@ -10,8 +10,6 @@ DISCLAIMER: King's Quest is copyrighted by Sierra Entertainment, Inc. and is use
 !Drop inventory item number:(00008)
 !Global Int number?
 !Global Int number?(00010)
-
-
 ### 가베인 장관 대사
 ### 오프닝
 &1 Your Majesty.   
@@ -59,8 +57,7 @@ DISCLAIMER: King's Quest is copyrighted by Sierra Entertainment, Inc. and is use
 &23 A wise precaution, Sire.
 &23 현명한 대처 조치입니다. 전하. (03640)
 &24 And, uh, if I may be so brash to ask... who might you be seeking?
-&24 그리고, 어, 경솔한 질문이오만... 찾는 것이 누구입니까? (03916)
-
+&24 그리고, 어, 경솔한 질문입니다만... 찾는 사람이 누구입니까?
 
 #### 빨간 망토 소녀 대사
 #### 필드에서 처음 만남
@@ -74,8 +71,6 @@ DISCLAIMER: King's Quest is copyrighted by Sierra Entertainment, Inc. and is use
 &4 내 바구니가 없어졌어요. 사방으로 다 찾아봤어요. 이 근처 어딘가 틀림없이 있을텐데! (08024)
 &5 Thank you, Graham. 
 &5 고마워요, 그레이엄. (08544)
-
-
 #### 마녀 대사
 #### 오프닝
 &1 Father?
@@ -94,8 +89,6 @@ DISCLAIMER: King's Quest is copyrighted by Sierra Entertainment, Inc. and is use
 &7 정말인가요? 어떤 모험인가요? (09178)
 &8 And what have I to do with his neck?
 &8 그럼 제가 그 목에다 어떻게 하면 될까요? (09446)
-
-
 #### 마녀와 대화하는 목소리. 아버지
 ####   오프닝
 &1 Sister Hagatha.
@@ -114,8 +107,6 @@ DISCLAIMER: King's Quest is copyrighted by Sierra Entertainment, Inc. and is use
 &7 곤경에 처한 소녀를 구하기 위해 대신 목을 내밀어주는 종류의 모험이지. (09180)
 &8 Put simply, my dear - sever it!
 &8 간단히 말해서, - 잘라버려! (09466)
-
-
 ###### 그레이엄 대사
 #########
 &2 Oh! Yes, Minister... um...  
@@ -146,16 +137,12 @@ DISCLAIMER: King's Quest is copyrighted by Sierra Entertainment, Inc. and is use
 &14 물론이오. 나는 초대 왕의 검을 가져가겠소. 그것이 나의 권리이니. (01162)
 &15 If all goes well... my bride.
 &15 모두 잘 풀린다면.... 내 신부가 되겠지. (01426)
-###### 그레이엄 대사
-####### 빨간망토 소녀
 &27 My name is Graham. What is yours?
 &27 나는 그레이엄이라고 한단다. 너는 누구니? (04756)
 &28 Why is that?
 &28 왜 그런거지? (05036)
 &29 I will keep my eye out for it.
 &29 나도 주의해서 찾아보도록 하지. (05296)
-
-
 &1 Arise, Sir Connor of Daventry.   
 &1 일어나라, 대번트리의 코너 경.   (00012)
 &1 At one point, my husband's hand must have clipped the bat's wing, because it lost control and crashed into his shoulder. He tried to wrest the foul creature away... but then he shrieked suddenly.

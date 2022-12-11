@@ -39,7 +39,7 @@ namespace SmartTran
                 }
                 else
                 {
-                    MessageBox.Show("Entry already in Dictionary!",string.Format("Key already available: {0}", sSourceText));
+                   // MessageBox.Show("Entry already in Dictionary!",string.Format("Key already available: {0}", sSourceText));
                 }
             }
             return translationLines;
